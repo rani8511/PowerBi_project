@@ -19,4 +19,6 @@ Slicers for filtering by demographic and clinical attributes,
 Trend charts and data cards for at-a-glance insights,
 This project reflects my skills in data preparation, modeling, and visualization using Power BI, with a healthcare focus on understanding and tracking diabetes risk factors.
 
+A blog on Making Interactive Dashboards- https://medium.com/@rani.pukkella/make-interactive-dashboards-without-code-in-power-bi-40de0602d692
+
 
