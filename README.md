@@ -1,24 +1,43 @@
-# PowerBi_project
-This project presents an end-to-end data analysis and visualization of a Diabetes dataset using Power BI, as part of my learning journey.
-It demonstrates my ability to clean, transform, and model data to uncover actionable insights through dynamic dashboards.
-Tools & Techniques: Power Query for data cleaning and preprocessing
-DAX (Data Analysis Expressions) for creating calculated columns, measures, and KPIs
-Power BI Visualizations for building interactive dashboards
-Project Highlights: Data Cleaning in Power Query:
-Removed duplicates and nulls
-Standardized data formats and column names
-Handled missing values and outliers
-Created custom columns for enhanced analysis
-DAX Measures:
-Calculated BMI and cognitive scores
-Defined patient categories based on thresholds
-Visualizations & Dashboard:
-Glucose level and BMI distributions by age and gender, HTN developed after Diabetes, Tobacco and alcoholeffects on the distribution among the patients with Diabetes and control group,
-Risk classification by medical features,
-Slicers for filtering by demographic and clinical attributes,
-Trend charts and data cards for at-a-glance insights,
-This project reflects my skills in data preparation, modeling, and visualization using Power BI, with a healthcare focus on understanding and tracking diabetes risk factors.
+# CGMacros-Analysis---Python-and-Power-BI
+This project showcases an interactive Power BI dashboard built to visualize subject-level insights across glycemic response, microbiome composition, metabolic risk markers, and macronutrient intake.
 
-A blog on Making Interactive Dashboards- https://medium.com/@rani.pukkella/make-interactive-dashboards-without-code-in-power-bi-40de0602d692
+The source data was taken from physionet: https://physionet.org/content/cgmacros/1.0.0/
+
+# Objective:
+To support personalized nutrition and health recommendations by analyzing individual biometrics, gut health, and glucose variability.
+
+# Key Features:
+Biometrics and Clinical Indicators:
+Tracking key health markers like HbA1c, BMI, and fasting glucose to assess metabolic risk.
+
+Subject-Level Health Insights:
+Personalizing analysis using demographics and vital signs to contextualize health status.
+
+Microbial and Gut Health:
+Evaluating gut microbiome composition to understand its influence on glucose and inflammation.
+
+Meal and Macronutrient Intake:
+Analyzing the impact of calories, carbs, fats, protein, and fiber from each meal on health.
+
+Glucose Response Trends:
+Identifying glucose spikes and patterns across time, meals, and nutrient combinations.
+
+# Tools Used
+- Jupiter Notebook (used Python for data cleaning and preprocessing)
+- Power BI (Data modeling & visualizations)
+- Excel (source data - CSV files )
+
+# Project Structure
+Folder 'Cleaned Data' consists of all cleaned files, preprocessed from source data taken from physionet (https://physionet.org/content/cgmacros/1.0.0/)
+Folder 'Files Used for cleaning Data' consists of all the python files used for cleaning the data. 
+CGMacros_visualizations.pbix file contains the visualizations for the analysis of the GCMacros data. 
+Data_Processing_Report.docx and Insights.docx give the details about cleaning and issights respectively.
+
+# Insights
+The visualizations dashboard can assist clinicians, dietitians, or researchers in delivering precision lifestyle recommendations based on detailed subject-level analytics and the glucose response trends.
+
+
+
+
 
 
